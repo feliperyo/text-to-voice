@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", serif;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./assets/microphone.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+    color: #fff;
+    text-align: center;
+    gap: 20px;
+
+    h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    span {
+        color: #757575;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+
+    textarea {
+        width: 70%;
+        height: 125px;
+        border: none;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 10px 0 0 10px;
+    }
+
+    input[type="file"] {
+        display: none;
+    }
+
+    .actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        margin-top: 5%;
+
+        .action-box {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            #voice {
+                width: 30%;
+            }
+        }
+    }
+
+    #voice,
+    button,
+    #label-file {
+        font-size: 20px;
+        padding: 10px 15px;
+        background-color: transparent;
+        border: 1px solid #757575;
+        color: #757575;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        cursor: pointer;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+
+    #voice:hover,
+    button:hover,
+    #label-file:hover {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+}
