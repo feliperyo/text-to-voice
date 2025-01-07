@@ -34,3 +34,19 @@ listenBtn.addEventListener("click", () => {
 
     window.speechSynthesis.speak(speak)
 })
+
+downloadBtn.addEventListener("click", () => {
+    const downText = text.value
+
+    const blob = new Blob([downText], { type: "text/plain" })
+
+    const url = URL.createObjectURL(blob)
+
+    const a = document.createElement("a")
+
+    a.href = url
+    a.download = "texto.txt"
+    a.click()
+
+    URL.revokeObjectURL(url)
+})
