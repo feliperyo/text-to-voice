@@ -112,3 +112,29 @@ main {
         border: 1px solid #fff;
     }
 }
+
+@media screen and (max-width: 1030px) {
+    main {
+        background-image: url(./assets/microphone.jpg);
+        background-position: right;
+        padding-right: 0%;
+    }
+
+    #content {
+        width: 99%;
+
+        .actions {
+            justify-content: space-between;
+            width: 90%;
+
+            .box1 {
+                align-items: center;
+            }
+        }
+
+        #voice {
+            width: 70%;
+        }
+    }
+
+}
