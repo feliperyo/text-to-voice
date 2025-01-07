@@ -106,7 +106,11 @@ main {
         width: 100%;
     }
 
-    #voice:hover,
+    #voice:hover {
+        color: #000;
+        border: 1px solid #fff;
+    }
+
     button:hover,
     #label-file:hover {
         color: #fff;
