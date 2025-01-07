@@ -101,6 +101,11 @@ main {
         -o-transition: 1s;
     }
 
+    #voice {
+        min-width: 150px;
+        width: 100%;
+    }
+
     #voice:hover,
     button:hover,
     #label-file:hover {
