@@ -24,3 +24,13 @@ const attValues = () => {
 }
 
 window.speechSynthesis.onvoiceschanged = attValues
+
+voice.addEventListener("change", () => {
+    speak.voice = availableVoices[voice.value]
+})
+
+listenBtn.addEventListener("click", () => {
+    speak.text = text.value
+
+    window.speechSynthesis.speak(speak)
+})

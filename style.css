@@ -73,10 +73,6 @@ main {
             display: flex;
             flex-direction: column;
             gap: 30px;
-
-            #voice {
-                width: 30%;
-            }
         }
     }
 
@@ -102,7 +98,6 @@ main {
     }
 
     #voice {
-        min-width: 150px;
         width: 100%;
     }
 
