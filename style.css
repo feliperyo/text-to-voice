@@ -121,7 +121,6 @@ main {
 @media screen and (max-width: 1030px) {
 
     main {
-        background-image: url(./assets/microphone.jpg);
         background-position: right;
         padding-right: 0%;
         padding-bottom: 25%;
@@ -181,5 +180,23 @@ main {
     .actions {
         flex-direction: column;
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    main {
+
+        h1 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    textarea {
+        width: 90%;
     }
 }
