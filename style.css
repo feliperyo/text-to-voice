@@ -74,6 +74,11 @@ main {
             flex-direction: column;
             gap: 30px;
         }
+
+        .last-btn {
+            display: flex;
+            gap: 20px;
+        }
     }
 
     #voice,
@@ -114,10 +119,12 @@ main {
 }
 
 @media screen and (max-width: 1030px) {
+
     main {
         background-image: url(./assets/microphone.jpg);
         background-position: right;
         padding-right: 0%;
+        padding-bottom: 25%;
     }
 
     #content {
@@ -135,6 +142,44 @@ main {
         #voice {
             width: 70%;
         }
+
+        textarea {
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        #voice,
+        button,
+        #label-file {
+            font-size: 20px;
+            padding: 10px 15px;
+            background-color: #fff;
+            border: 1px solid #757575;
+            color: #757575;
+        }
+
+        #voice:hover {
+            color: #000;
+            border: 1px solid #000;
+        }
+
+        button:hover,
+        #label-file:hover {
+            color: #000;
+            border: 1px solid #000;
+        }
     }
 
+}
+
+@media screen and (max-width: 780px) {
+
+    main {
+        padding-bottom: 0%;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
