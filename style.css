@@ -69,10 +69,15 @@ main {
         width: 70%;
         margin-top: 5%;
 
+        .box1 {
+            margin-right: 30px;
+        }
+
         .action-box {
             display: flex;
             flex-direction: column;
             gap: 30px;
+            min-width: 200px;
         }
 
         .last-btn {
