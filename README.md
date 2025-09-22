@@ -22,8 +22,3 @@ Este projeto foi desenvolvido como parte do **módulo Club do Portfólio do Dev 
 
 ## 🌐 Deploy  
 🔗 [Acesse o projeto online](https://feliperyo.github.io/text-to-voice/)
-
-## ▶️ Como Usar  
-1. Clone este repositório:  
-```bash
-git clone https://github.com/feliperyo/text-to-voice
