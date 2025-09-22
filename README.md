@@ -22,3 +22,7 @@ Este projeto foi desenvolvido como parte do **módulo Club do Portfólio do Dev 
 
 ## 🌐 Deploy  
 🔗 [Acesse o projeto online](https://feliperyo.github.io/text-to-voice/)
+
+## 🔗 Publicação no LinkedIn  
+📢 [Confira o post completo no LinkedIn](https://www.linkedin.com/posts/feliperyo_devclub-clubdoportfaejlio-programaaexaeto-activity-7291121786241372160-ykX0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEuIYKEBxP9k3gv5xO5YRa3nJ5jqYNsv6qU)  
+
